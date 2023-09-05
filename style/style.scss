@@ -38,19 +38,22 @@ header {
                     border-radius: 5px;
                 }
                 ul.dropdown {
-                    li {
-                        display: block;
-                    }
+                    padding: 0;
                     width: 100%;
                     position: absolute;
                     z-index: 999;
                     display: none;
+                    li {
+                        display: block;
+                    
+                    }
                 }
                 a:hover {
                     background-color: white;
                     color: black;
                 }
             }
+
             li:hover {
                 ul.dropdown {
                     display: block;

@@ -44,6 +44,7 @@ header nav ul li a {
   border-radius: 5px;
 }
 header nav ul li ul.dropdown {
+  padding: 0;
   width: 100%;
   position: absolute;
   z-index: 999;
